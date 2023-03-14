@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        #content {
+            display: flex;
+            position: relative;
+        }
+
+        ul {
+            position: absolute;
+            top: 100%;
+            font-size: 30px;
+            gap: 1rem;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .btn {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 100%;
+            width: fit-content;
+            height: 30px;
+            border: 2px solid black;
+            background-color: brown;
+            color: azure;
+            padding: 8px 4px 8px 4px;
+            font-size: large;
+            gap: 1rem;
+            margin-left: 10px;
+            cursor: pointer;
+            border-radius: 14px;
+        }
+
+        .btn:hover {
+            background-color: azure;
+            color: brown;
+            transition: .5s linear;
+        }
+    
+        .error {
+            color: red;
+            font-size: large;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .dotted {
+            text-decoration: dotted;
+        }
+
+        .teljesitve {
+            text-decoration-line: line-through;
+        }
+
+
+        
+    </style>
+    <title>Bevásárlólista</title>
+</head>
+<body>
+    <h1>Bevásárlólista</h1>
+
+    <div id="content"></div>
+
+    <script src="bevasarlolista.js"></script>
+</body>
+</html>
